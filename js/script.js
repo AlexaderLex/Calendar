@@ -58,7 +58,7 @@ var yyyy = today.getFullYear();
 };
 var fuck = dateTest();
 elNowDate = document.getElementById("nowDate");
-elNowDate.innerHTML=fuck;
+elNowDate.innerHTML=new Date().toDateString();
 // console.log(fuck);
 
 // var t = theTime();
