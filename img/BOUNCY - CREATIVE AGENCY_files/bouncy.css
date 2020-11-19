@@ -1,0 +1,50 @@
+ .bouncy {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #fff;
+     width: 1366px;
+     height: 490px;
+ }
+ 
+ .bouncyTextDiv {
+     margin: 100px;
+     width: 503px;
+ }
+ 
+ .bouncyTitle {
+     margin-bottom: 40px;
+     font-family: "Source Sans Pro";
+     font-size: 20px;
+     text-transform: uppercase;
+     color: rgb(51, 59, 70);
+     line-height: 0.6;
+ }
+ 
+ .bouncyText {
+     font-size: 14px;
+     font-family: "Open Sans";
+     color: rgb(129, 134, 142);
+     line-height: 1.786;
+     padding: 10px 0;
+ }
+ 
+ .bouncyImgDiv {
+     width: 400px;
+ }
+ 
+ .linkP {
+     display: inline-block;
+     margin-top: 12px;
+     border: 1.5px solid rgba(51, 59, 70, 0.6);
+     border-radius: 16px;
+     padding: 2px 16px;
+ }
+ 
+ .linkP a {
+     text-decoration: none;
+     font-family: "Open Sans";
+     font-size: 1rem;
+     color: rgb(51, 59, 70);
+     line-height: 0.75;
+ }

@@ -1,0 +1,66 @@
+ .circles {
+     position: relative;
+     width: 570px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ 
+ .progressDiv {
+     margin-top: 50px;
+     width: 120px;
+     height: 120px;
+     position: relative;
+ }
+ 
+ .progress-ring {
+     display: block;
+     position: relative;
+ }
+ 
+ .progress-ring__circle {
+     transform-origin: center;
+     transform: rotate(-90deg);
+     transition: stroke-dashoffset 500ms;
+     position: relative;
+     stroke: rgb(25, 200, 160);
+     z-index: 10;
+ }
+ 
+ .progress-ring__circle2 {
+     position: relative;
+     transform-origin: center;
+     transform: rotate(-90deg);
+     stroke-width: 4px;
+     stroke: rgba(190, 190, 190, 0.4);
+     transition: stroke-dashoffset 500ms;
+     z-index: -1;
+ }
+ 
+ .num,
+ .num2,
+ .num3 {
+     position: absolute;
+     top: 50%;
+     left: 40%;
+     font-family: "Open Sans";
+     font-size: 25px;
+     line-height: 1;
+     color: rgb(129, 134, 142);
+     transform: translate(-50%, -50%);
+ }
+ 
+ .perc {
+     position: absolute;
+     font-family: "Open Sans";
+     font-size: 25px;
+     line-height: 1;
+     color: rgb(129, 134, 142);
+     top: 39%;
+     left: 52%;
+ }
+ 
+ .goal {
+     margin-top: 10px;
+     text-align: center;
+ }

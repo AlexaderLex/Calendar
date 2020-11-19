@@ -1,0 +1,12 @@
+ .contentDiv {
+     background-color: deepskyblue;
+ }
+ 
+ .contentPar {
+     /* width: 28%; */
+     display: block;
+ }
+ 
+ .contentPar img {
+     width: 300px;
+ }

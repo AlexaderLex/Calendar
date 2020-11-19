@@ -1,0 +1,93 @@
+ section.services {
+     height: 640px;
+ }
+ 
+ .graphicWrap {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .serviceHead {
+     margin-top: 80px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ p.caption {
+     text-transform: uppercase;
+     font-family: "Source Sans Pro";
+     font-size: 20px;
+     color: rgb(51, 59, 70);
+     line-height: 0.6;
+     margin-bottom: 40px;
+ }
+ 
+ p.serviceText {
+     text-align: center;
+     width: 480px;
+     font-family: "Open Sans";
+     font-size: 14px;
+     color: rgb(129, 134, 142);
+     line-height: 1.786;
+ }
+ 
+ .graphic {
+     width: 500px;
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .graphicImg {
+     height: 280px;
+ }
+ 
+ .images {
+     background-color: rgb(129, 134, 142);
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     margin-top: 20px;
+     position: relative;
+ }
+ 
+ .images2 {
+     background-color: rgb(25, 189, 154);
+ }
+ 
+ .images img {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .graphicText {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin: 20px;
+     height: 280px;
+     width: 400px;
+ }
+ 
+ .graph1Text {
+     font-family: "Open Sans";
+     font-size: 20px;
+     color: rgb(70, 70, 70);
+ }
+ 
+ .graph2Text {
+     font-family: "Open Sans";
+     font-size: 16px;
+     color: rgb(129, 134, 142);
+ }
+ 
+ .graphicText p {
+     margin-top: 20px;
+     margin-left: 20px;
+ }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5501/page/page5.html -->
+<html lang="en" class=" js geolocation draganddrop localstorage svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page 5</title>
+    
+    
+<link rel="stylesheet" href="./Page 5_files/navigation.css"><link rel="stylesheet" href="./Page 5_files/page5.css"></head>
+
+<body class="page5">
+
+    <div id="navDiv" f="part.txt">        <nav>
+            <ol>
+                <li><a href="http://127.0.0.1:5501/index.html" class="home">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/page/page2.html" class="page2">Page 2</a></li>
+                <li><a href="http://127.0.0.1:5501/page/page3.html" class="page3">Page 3</a></li>
+                <li><a href="http://127.0.0.1:5501/page/page4.html" class="page4">Page 4</a></li>
+                <li><a href="http://127.0.0.1:5501/page/page5.html" class="page5">Page 5</a></li>
+                <li><a href="http://127.0.0.1:5501/page/page6.html" class="page6">Page 6</a></li>
+            </ol>
+        </nav></div>
+
+    <!-- ========  CONTENT STRART =========== -->
+    <div class="contentDiv">
+
+
+        <div class="heart">
+            <input type="checkbox" class="heart__checkbox">
+            <div class="heart__icon"></div>
+        </div>
+        <!-- heart -->
+
+
+    </div>
+    <!-- contentDiv -->
+
+    <!-- ========  CONTENT END =========== -->
+
+    <script src="./Page 5_files/js.js.download"></script>
+    <script src="./Page 5_files/page4.js.download"></script>
+    <script src="./Page 5_files/jquery-3.4.1.min.js.download"></script>
+    <script src="./Page 5_files/modernizr.min.js.download"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

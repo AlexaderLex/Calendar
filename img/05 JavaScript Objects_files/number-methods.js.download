@@ -1,0 +1,50 @@
+ "use strict";
+
+ // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+
+ let num1 = 255.965;
+
+ createPar("blue", num1.toFixed(2) +
+     " toFixed(2)", "white");
+ createPar("#333", num1.toString(2) +
+     " toString(2)", "");
+ createPar("#333", num1.toString(8) +
+     " toString(8)", "");
+ createPar("#888", num1.toString(16) +
+     " toString(16)", "");
+
+ createPar("black", Math.round(num1) + " round", "yellow")
+ createPar("white", Math.floor(num1) + " floor", "green")
+ createPar("#02ff19", Math.ceil(num1) + " ceil", "red")
+ createPar("red", ((Math.random() * 36).toFixed(1)) + " - random", "white")
+
+ let min = 0;
+ let max = 23;
+ let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+
+ createPar("black", randomNum + " - random number", "white");
+ createPar("#ccc", Math.floor(Math.random() * (max - min + 1) + min) + " - random number" + " between " + min + " and " + max, "blue");
+
+ // Challenge Area
+ // 1 - 5 - true if correct, false if not correct;
+
+ let letGuess = function() {
+     let ranNum = Math.round((Math.random() * 10)).toFixed(0);
+     if (ranNum >= 1 && ranNum <= 5) {
+         let Paragraph = document.querySelectorAll(".contentPar");
+         Paragraph[Paragraph.length - 2].style.display = "inline";
+         Paragraph[Paragraph.length - 1].style.display = "inline";
+         createPar("blue", "true", "white");
+         createPar("white", ranNum, "blue");
+
+     } else {
+         createPar("black", "false", "red");
+         createPar("red", ranNum, "white");
+         let Paragraph = document.querySelectorAll(".contentPar");
+         Paragraph[Paragraph.length - 2].style.display = "inline";
+         Paragraph[Paragraph.length - 1].style.display = "inline";
+
+     }
+ }
+
+ letGuess();

@@ -1,0 +1,10 @@
+ var images = ["../img/headerImg/Header_IMAGE.png", "../img/headerImg/3.png", "../img/headerImg/4.jpg", "../img/headerImg/2.jpeg", "../img/headerImg/5.jpg", "../img/headerImg/6.jpg"];
+
+ var image = document.querySelector("header img");
+ var x = 0;
+
+ function changeImg() {
+     x++;
+     if (x > 5) { x = 0 };
+     image.src = images[x];
+ }

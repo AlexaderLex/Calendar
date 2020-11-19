@@ -1,0 +1,22 @@
+// onload = () =>
+// document.querySelectorAll('inc').forEach(e =>
+//     fetch(e.getAttribute('f'))
+//         .then(r => r.text())
+//         .then(t => e.outerHTML = t)
+// );
+
+
+
+
+
+onload = function loadDoc() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("navDiv").innerHTML = this.responseText;
+        }
+    };
+    elGet = document.getElementById("navDiv").getAttribute("f");
+    xhttp.open("GET", elGet, true);
+    xhttp.send();
+}

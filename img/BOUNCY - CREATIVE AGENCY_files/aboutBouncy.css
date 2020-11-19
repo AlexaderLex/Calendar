@@ -1,0 +1,103 @@
+ .aboutBouncy {
+     height: 620px;
+ }
+ 
+ .featuredProjects {
+     height: 240px;
+     background-color: #fff;
+ }
+ 
+ .aboutWrap {
+     margin-top: 76px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .aboutDetails {
+     font-family: "Source Sans Pro";
+     font-size: 20px;
+     color: rgb(51, 59, 70);
+     text-transform: uppercase;
+     line-height: 0.6;
+     letter-spacing: 4px;
+ }
+ 
+ .aboutText {
+     margin-top: 40px;
+     width: 460px;
+     font-family: "Open Sans";
+     font-size: 14px;
+     color: rgb(129, 134, 142);
+     line-height: 1.786;
+     text-align: center;
+ }
+ 
+ .aboutLogos {
+     margin-top: 50px;
+ }
+ 
+ .aboutLogos img {
+     margin: 10px 16px;
+     cursor: pointer;
+ }
+ 
+ .ideas {
+     display: block;
+     margin: 50px auto;
+     width: 1000px;
+ }
+ 
+ .idea {
+     margin-bottom: 10px;
+     font-family: "Open Sans";
+     font-size: 20px;
+     line-height: 6.25;
+     color: rgb(70, 70, 70);
+ }
+ 
+ .ideasWrap {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .ideasWrap p {
+     margin-right: 40px;
+ }
+ 
+ .textLeft {
+     width: 350px;
+ }
+ 
+ .textRight {
+     width: 500px;
+ }
+ 
+ .textLeft,
+ .textRight {
+     font-family: "Open Sans";
+     font-size: 16px;
+     color: rgb(129, 134, 142);
+     line-height: 1.75;
+ }
+ 
+ .green {
+     color: rgb(25, 189, 154);
+     font-weight: 700;
+     cursor: pointer;
+ }
+ 
+ .strong {
+     font-weight: 700;
+     cursor: pointer;
+ }
+ 
+ .featuredProjects {
+     margin: 0;
+     width: 1366px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Big John';
+    src: url('../font/BigJohn.eot');
+    src: url('../font/BigJohn.eot?#iefix') format('embedded-opentype'), url('../font/BigJohn.woff') format('woff'), url('../font/BigJohn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../font/SourceSansPro-Regular.eot');
+    src: url('../font/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), url('../font/SourceSansPro-Regular.woff2') format('woff2'), url('../font/SourceSansPro-Regular.woff') format('woff'), url('../font/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

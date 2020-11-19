@@ -1,0 +1,58 @@
+ "use strict";
+
+ const circle = document.querySelector(".progress-ring__circle");
+ const radius = circle.r.baseVal.value;
+ const input = document.querySelector(".num");
+ const input2 = document.querySelector(".num2");
+ const input3 = document.querySelector(".num3");
+
+ //  input.addEventListener("change", function() {
+ //      setProgress(input.value);
+ //  })
+
+ // длина окружности = 2pi * radius
+
+ const circumference = 2 * Math.PI * radius;
+
+ circle.style.strokeDasharray = `${circumference} ${circumference}`;
+ circle.style.strokeDashoffset = circumference;
+
+ function setProgress(percent) {
+     const offset = circumference - percent / 100 * circumference;
+     circle.style.strokeDashoffset = offset;
+ }
+
+ setProgress(input.innerText);
+
+ const circle2 = document.querySelector(".two");
+ const radius2 = circle2.r.baseVal.value;
+
+ const circumference2 = 2 * Math.PI * radius2;
+
+ circle2.style.strokeDasharray = `${circumference2} ${circumference2}`;
+ circle2.style.strokeDashoffset = circumference2;
+
+ function setProgress2(percent) {
+     const offset2 = circumference2 - percent / 100 * circumference2;
+     circle2.style.strokeDashoffset = offset2;
+ }
+
+ setProgress2(input2.innerText);
+
+ const circle3 = document.querySelector(".three");
+ const radius3 = circle3.r.baseVal.value;
+
+ const circumference3 = 2 * Math.PI * radius3;
+
+ circle3.style.strokeDasharray = `${circumference3} ${circumference3}`;
+ circle3.style.strokeDashoffset = circumference3;
+
+ function setProgress3(percent) {
+     const offset3 = circumference3 - percent / 100 * circumference3;
+     circle3.style.strokeDashoffset = offset3;
+ }
+
+ setProgress3(input3.innerText);
+
+ let x1 = 2 * Math.PI * 70;
+ console.log(x1);

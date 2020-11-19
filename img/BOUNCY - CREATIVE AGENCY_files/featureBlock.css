@@ -1,0 +1,110 @@
+ .featureImgBlock {
+     height: 320px;
+     width: 1366px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .blockLeft {
+     margin: 0;
+     width: 700px;
+     height: 319px;
+ }
+ 
+ .blockLeft img {
+     margin: 0;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .blockMiddle {
+     margin: 0;
+     width: 336px;
+     height: 319px;
+     position: relative;
+ }
+ 
+ .blockMiddle::after {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     content: "vintage";
+     text-transform: uppercase;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     line-height: 319px;
+     text-align: center;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.8);
+ }
+ 
+ .blockMiddle img {
+     margin: 0;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .blockRight {
+     margin: 0;
+     width: 330px;
+     height: 319px;
+     position: relative;
+ }
+ 
+ .blockRight::after {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     content: "branding";
+     text-transform: uppercase;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     line-height: 319px;
+     text-align: center;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.8);
+ }
+ 
+ .blockRight img {
+     margin: 0;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .featureSubmit {
+     width: 1366px;
+     height: 116px;
+     background-image: url("../img/featBlock/submit.png");
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .submitText {
+     font-family: "Open Sans";
+     font-size: 20px;
+     color: rgba(255, 255, 255, 0.7);
+     line-height: 1.25;
+ }
+ 
+ .submitBut {
+     font-family: "Open Sans";
+     font-size: 16px;
+     color: rgba(255, 255, 255, 0.7);
+     line-height: 0.75;
+     padding: 8px 16px;
+     border: 1.5px solid rgba(255, 255, 255, .9);
+     border-radius: 16px;
+     cursor: pointer;
+ }
+ 
+ .submitBut:focus {
+     border: 2px solid rgba(255, 255, 255, 1);
+ }
+ 
+ .strongSp {
+     color: rgba(255, 255, 255, 1);
+ }

@@ -1,0 +1,18 @@
+ "use strict";
+ // Add Paragraph to the page ------------
+ const contentDiv = document.querySelector(".contentDiv");
+ let textPar = "";
+
+ function createPar(color = "transparent", text = "", textCol = "#fff") {
+     let contentPar = document.createElement("p");
+     contentPar.style.backgroundColor = color;
+     contentPar.classList.add("contentPar");
+     contentDiv.appendChild(contentPar);
+     contentPar.textContent = text;
+     contentPar.style.color = textCol;
+     if (textCol === "red" || textCol === "#f00") {
+         contentPar.style.fontWeight = "600";
+     } else {
+         contentPar.style.fontWeight = "400";
+     }
+ };

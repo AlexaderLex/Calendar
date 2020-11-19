@@ -1,0 +1,57 @@
+ .impress {
+     height: 400px;
+     background-image: url("../img/impress/imprImg1.png");
+ }
+ 
+ .impressWrap {
+     display: grid;
+     grid-template-columns: 99px 600px 70px 500px 98px;
+     grid-template-rows: auto;
+ }
+ 
+ .impressText {
+     width: 600px;
+     /* color: rgb(243.243.243); */
+     grid-column: 2/3;
+ }
+ 
+ .impressCaption {
+     margin-top: 80px;
+     font-family: "Source Sans Pro";
+     font-size: 20px;
+     text-transform: uppercase;
+     line-height: 0.6;
+     color: rgb(243, 243, 243);
+ }
+ 
+ .impressText1 {
+     margin-top: 60px;
+     font-size: 16px;
+     font-family: "Open Sans";
+     color: rgb(178, 179, 179);
+     line-height: 1.75;
+ }
+ 
+ .impressText2 {
+     margin-top: 30px;
+     font-family: "Open Sans";
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 1.78;
+     text-transform: uppercase;
+     color: rgb(178, 179, 179);
+ }
+ 
+ .impressText3 {
+     margin-top: 10px;
+     font-family: "Open Sans";
+     font-size: 14px;
+     line-height: 1.78;
+     text-transform: uppercase;
+     color: rgb(178, 179, 179);
+ }
+ 
+ .impressImg {
+     grid-column: 4/5;
+     margin-top: -130px;
+ }

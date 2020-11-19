@@ -1,0 +1,161 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ html {
+     background-color: rgb(147, 147, 147);
+ }
+ 
+ body {
+     margin: 0 auto;
+     width: 1366px;
+     height: 10448px;
+     background-color: rgb(243, 243, 243);
+     font-family: "Open Sans", sans-serif;
+     font-size: 16px;
+ }
+ 
+ header {
+     margin: 0;
+     width: 1366px;
+     height: 737px;
+     position: relative;
+ }
+ 
+ .headerImg {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+ }
+ 
+ .headerImg .img_1 {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+ 
+ .header {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ h1.logo {
+     display: block;
+     color: rgb(255, 255, 255);
+     font-family: "Big John";
+     line-height: 0.48;
+     text-align: left;
+     margin: 48px 100px;
+ }
+ 
+ nav {
+     display: inline-block;
+     width: 780px;
+     height: 35px;
+     position: relative;
+ }
+ 
+ nav ul {
+     display: flex;
+     list-style: none;
+     font-family: "Open Sans", sans-serif;
+     font-size: 1rem;
+     line-height: 0.75;
+     color: rgb(255, 255, 255);
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     /* border: 1px solid white; */
+ }
+ 
+ nav ul li {
+     margin: 48px 0;
+     margin-right: 1rem;
+     cursor: pointer;
+     font-size: 1rem;
+     padding: 10px 12px;
+     border: 1.5px solid transparent;
+     border-radius: 16px;
+     position: relative;
+     z-index: 10;
+ }
+ 
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+     outline: none;
+ }
+ 
+ nav ul li a:focus {
+     outline: none;
+ }
+ 
+ nav ul li:hover {
+     border: 1.5px solid white;
+ }
+ 
+ nav ul li:focus {
+     outline: none;
+     border: 1.5px solid white;
+ }
+ 
+ .hello {
+     border: 1.5px solid white;
+ }
+ 
+ .slogan {
+     display: inline-block;
+     font-family: "Source Sans Pro";
+     text-transform: uppercase;
+     color: white;
+     font-size: 2rem;
+     line-height: 2;
+     font-weight: normal;
+     text-align: center;
+     /* background-color: rgba(0, 0, 0, 0.2); */
+ }
+ 
+ .textDiv {
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .textP {
+     font-size: 1rem;
+     color: white;
+     line-height: 1.75;
+     text-align: center;
+     /* background-color: rgba(0, 0, 0, 0.2); */
+     padding: 4px;
+ }
+ 
+ .greenMark {
+     display: flex;
+     width: 30px;
+     height: 30px;
+     background-color: rgba(25, 189, 154, 1);
+     border-radius: 50%;
+     position: absolute;
+     left: calc(50% - 15px);
+     bottom: 76px;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+ }
+ 
+ .whiteAngle {
+     display: inline-block;
+     width: 8px;
+     height: 8px;
+     border-bottom: 1.5px solid white;
+     border-left: 1.5px solid white;
+     transform: rotate(-45deg);
+ }

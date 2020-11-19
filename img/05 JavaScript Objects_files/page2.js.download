@@ -1,0 +1,60 @@
+ "use strict";
+
+ const paragraphs = document.querySelectorAll(".contentPar");
+
+ let num = 4;
+
+ function getPar(index, text) {
+     paragraphs[index].innerHTML = text;
+ };
+
+
+ function checkContent() {
+     paragraphs.forEach(function(par) {
+         console.log(par.textContent);
+         if (par.textContent === "") {
+             par.style.display = "none";
+         } else {
+             par.style.display = "inline-block";
+         }
+     });
+ };
+
+ function clearContent() {
+     paragraphs.forEach(function(par) {
+         par.innerHTML = "";
+     });
+ };
+
+ const btnClear = document.querySelector(".btnClear");
+
+ btnClear.addEventListener("click", clearContent);
+
+
+ let age = 54;
+ let dogYears = (age + 1) / 7;
+
+ let content;
+ content = dogYears.toFixed(2)
+
+ //  getPar(0, content);
+
+ // Challenge Area 
+
+ // StudentScore 18
+ // maxScore 20
+ // percent 90
+
+ // print the percent
+
+ let StudentScore = 0;
+ let maxScore = 50;
+
+ for (let y = 0; y < 30; y++) {
+     StudentScore = Math.floor(Math.random() * 50);
+     let percent = (StudentScore / maxScore) * 100;
+     let letSee = `Student ${y +1} score is: ${StudentScore} percent is ${percent.toFixed(0)}%`
+         //  getPar(y, letSee);
+ };
+
+ // 013 Build a Temperature Converter
