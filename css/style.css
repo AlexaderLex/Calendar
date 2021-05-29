@@ -115,3 +115,8 @@ body {
     color: firebrick;
     font-size: 1.2rem;
 }
+
+.cursor {
+    background-color: #222;
+    border-radius: 12px;
+}
