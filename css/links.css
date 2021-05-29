@@ -127,6 +127,11 @@ li.wbItem {
 }
 
 
+.cursor a img {
+    width: 60px;
+    height: 100%;
+}
+
 
 
 /* img.Kotik {
