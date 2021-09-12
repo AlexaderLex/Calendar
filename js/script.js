@@ -47,24 +47,7 @@
  var fuck = dateTest();
  elNowDate = document.getElementById("nowDate");
  elNowDate.innerHTML = new Date().getMonth();
- // console.log(fuck);
-
- // var t = theTime();
- //  elTime = document.getElementById("nowTime");
- //  elTime.innerHTML = t;
-
-
- // var today = new Date();
- //  function dateTest() {
- // var dd = String(today.getDate()).padStart(2, '0');
- // var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
- // var yyyy = today.getFullYear();
- // console.log(dd);
- //  return mm + '/' + dd + '/' + yyyy;
- // };
-
-
-
+ 
  function theMonth() {
      var month = new Array(12);
      month[0] = "January";
@@ -85,12 +68,9 @@
  }
  theMonth();
 
+ const wrapper = document.querySelector(".wrapper");
 
- //  var a = nowDate();
- //  el = document.getElementById("nowDay");
- //  el.textContent = a;
- //  console.log(a);
+ wrapper.addEventListener("click", () => {
+     window.location = "file:///D:/desktop/Calendar/page/screen-clock.html";
+ });
 
- //  var y = theYear();
- //  elYear = document.getElementById("nowYear");
- //  elYear.textContent = y;

@@ -19,6 +19,10 @@ body {
     padding-top: 4.4rem;
 }
 
+#clock-page {
+    text-decoration: none;
+}
+
 .wrapper {
     position: sticky;
     display: flex;
